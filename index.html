@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>2014 Version</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
   </head>
   <body>
 
@@ -19,11 +20,23 @@
       <button id="mButton">toggle sound</button>
     </div>
 
+    <audio id="music2" preload="true">
+      <source src="beep-n-stop.mp3">
+                <source src="beep-n-stop.ogg">
+        </audio>
+    <div id="audioplayer2">
+        <button id="pButton2" class="play2"></button>
+      <div id="timeline2">
+              <div id="playhead2"></div>
+      </div>
+      <button id="mButton2">toggle sound</button>
+    </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
     <script src="javascript.js"></script>
+    <script src="javascript2.js"></script>
 
   </body>
 </html>
