@@ -1,0 +1,53 @@
+#audioplayer6{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  margin: 50px auto auto auto;
+}
+.rotateAnimate {
+  animation-name: example;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  animation-timing-function: linear;
+}
+.stopAnimation {
+  animation-play-state: paused;
+}
+@keyframes example {
+  0%   {transform: rotate(360deg)};
+}
+#spinner-six {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+}
+#pButton6{
+  height:60px;
+  width: 60px;
+  border: none;
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  float:left;
+  outline:none;
+  display: none;
+}
+
+/*.play6{background: url('http://www.alexkatz.me/codepen/img/play.png') ;}
+.pause6{background: url('http://www.alexkatz.me/codepen/img/pause.png') ;}*/
+
+#timeline6{
+  float: left;
+  border-radius: 15px;
+  background: rgba(0,0,0,.3);
+}
+#playhead6{
+  border-radius: 50%;
+  margin-top: 1px;
+  background: rgba(0, 0, 0,1);
+}

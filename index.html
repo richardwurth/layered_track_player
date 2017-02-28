@@ -1,42 +1,122 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>2014 Version</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style2.css">
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <title>2014 Version</title>
+  <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="CSS/style2.css">
+  <link rel="stylesheet" href="CSS/style3.css">
+  <link rel="stylesheet" href="CSS/style4.css">
+  <link rel="stylesheet" href="CSS/style5.css">
+  <link rel="stylesheet" href="CSS/style6.css">
 
-    <audio id="music" preload="true">
-      <source src="game-over.mp3">
-                <source src="game-over.ogg">
+</head>
+<body>
+
+    <h1>Xylophone</h1>
+    <audio loop id="music2" preload="true">
+      <source src="Music/Loop_B.mp3">
+        <source src="Music/Loop_B.ogg">
         </audio>
-    <div id="audioplayer">
-        <button id="pButton" class="play"></button>
-      <div id="timeline">
-              <div id="playhead"></div>
-      </div>
-      <button id="mButton">toggle sound</button>
-    </div>
+        <div id="audioplayer2">
+          <button id="pButton2" class="play2"></button>
+          <div id="timeline2">
+            <div id="playhead2"></div>
+          </div>
+          <div class="a-test" id="spinner-one">
+            <img src="http://design.ubuntu.com/wp-content/uploads/ubuntu-logo32.png" width=50px height=50px alt="">
+          </div>
+        </div>
+        <button id="mButton"></button>
 
-    <audio id="music2" preload="true">
-      <source src="beep-n-stop.mp3">
-                <source src="beep-n-stop.ogg">
-        </audio>
-    <div id="audioplayer2">
-        <button id="pButton2" class="play2"></button>
-      <div id="timeline2">
-              <div id="playhead2"></div>
-      </div>
-      <button id="mButton2">toggle sound</button>
-    </div>
+        <h1>Pizzicato</h1>
+        <audio loop id="music6" preload="true">
+          <source src="Music/Loop_A.mp3">
+            <source src="Music/Loop_A.ogg">
+            </audio>
+            <div id="audioplayer6">
+              <button id="pButton6" class="play6"></button>
+              <div id="timeline6">
+                <div id="playhead6"></div>
+              </div>
+              <div id="spinner-six">
+                <img src="http://design.ubuntu.com/wp-content/uploads/ubuntu-logo32.png" width=50px height=50px alt="">
+              </div>
+            </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
-    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
-    <script src="javascript.js"></script>
-    <script src="javascript2.js"></script>
+            <h1>Drums</h1>
+            <audio loop id="music3" preload="true">
+              <source src="Music/Loop_D.mp3">
+                <source src="Music/Loop_D.ogg">
+                </audio>
+                <div id="audioplayer3">
+                  <button id="pButton3" class="play3"></button>
+                  <div id="timeline3">
+                    <div id="playhead3"></div>
+                  </div>
+                  <div id="spinner-three">
+                    <img src="http://design.ubuntu.com/wp-content/uploads/ubuntu-logo32.png" width=50px height=50px alt="">
+                  </div>
+                </div>
 
-  </body>
-</html>
+                <h1>Single Bell</h1>
+                <audio loop id="music" preload="true">
+                  <source src="Music/Loop_C.mp3">
+                    <source src="Music/Loop_C.ogg">
+                    </audio>
+                    <div id="audioplayer">
+                      <button id="pButton" class="play"></button>
+                      <div id="timeline">
+                        <div id="playhead"></div>
+                      </div>
+                      <div id="spinner-two">
+                        <img src="http://design.ubuntu.com/wp-content/uploads/ubuntu-logo32.png" width=50px height=50px alt="">
+                      </div>
+                    </div>
+
+                    <h1>Twin Bells</h1>
+                    <audio loop id="music4" preload="true">
+                      <source src="Music/Loop_C2.mp3">
+                        <source src="Music/Loop_C2.ogg">
+                        </audio>
+                        <div id="audioplayer4">
+                          <button id="pButton4" class="play4"></button>
+                          <div id="timeline4">
+                            <div id="playhead4"></div>
+                          </div>
+                          <div id="spinner-four">
+                            <img src="http://design.ubuntu.com/wp-content/uploads/ubuntu-logo32.png" width=50px height=50px alt="">
+                          </div>
+                        </div>
+
+
+                        <h1>Twin Bells - High</h1>
+                        <audio loop id="music5" preload="true">
+                          <source src="Music/Loop_C3.mp3">
+                            <source src="Music/Loop_C3.ogg">
+                            </audio>
+                            <div id="audioplayer5">
+                              <button id="pButton5" class="play5"></button>
+                              <div id="timeline5">
+                                <div id="playhead5"></div>
+                              </div>
+                              <div id="spinner-five">
+                                <img src="http://design.ubuntu.com/wp-content/uploads/ubuntu-logo32.png" width=50px height=50px alt="">
+                              </div>
+                            </div>
+
+                          <button id="master-play"><img src="http://www.alexkatz.me/codepen/img/play.png" height=50px width=50px alt=""></button>
+
+                          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+                          <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+                          <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
+                          <script src="JS/javascript.js"></script>
+                          <script src="JS/javascript2.js"></script>
+                          <script src="JS/javascript3.js"></script>
+                          <script src="JS/javascript4.js"></script>
+                          <script src="JS/javascript5.js"></script>
+                          <script src="JS/javascript6.js"></script>
+
+                        </body>
+                        </html>
